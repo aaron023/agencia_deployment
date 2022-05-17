@@ -1,0 +1,28 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1= pagina
+                blockquote Donec at ante interdum, commodo neque non, fermentum erat. Aenean egestas ornare ex eget vulputate. Morbi ut mi vulputate, ornare velit vitae, cursus nisi. Aliquam tristique, neque ac consectetur semper, felis elit semper massa, a feugiat justo ex nec tortor. Donec a vestibulum diam. Fusce sed tempor diam. Integer tincidunt, neque vel imperdiet sollicitudin, enim neque molestie magna, hendrerit vestibulum libero eros id justo. Quisque nec ullamcorper risus, sit amet iaculis urna. Proin lacinia semper scelerisque. 
+
+                p Nullam sed dui massa. Ut malesuada vulputate mauris at placerat. Ut faucibus sem in neque tristique eleifend. Nulla facilisi. Donec ullamcorper aliquet interdum. Pellentesque ornare justo tellus, sit amet egestas neque vehicula eu. Nam rutrum metus sed nisi tincidunt, et condimentum felis porttitor. Proin sagittis sapien sed dolor fringilla finibus.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Aenean egestas ornare ex eget vulputate.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos" class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Aenean egestas ornare ex eget vulputate.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios" class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Aenean egestas ornare ex eget vulputate.
